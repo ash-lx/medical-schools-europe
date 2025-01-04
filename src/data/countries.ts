@@ -1,0 +1,225 @@
+import { CountryData } from '@/types';
+
+export const countriesData: CountryData[] = [
+  {
+    country: "Italy",
+    countryCode: "IT",
+    gdpPerCapita: "36,000-38,000",
+    entranceExams: "IMAT (International Medical Admissions Test): Biology, Chemistry, Physics, Math, Logical Reasoning. Competitive; higher score = better chance for top universities.",
+    languageRequirementAdmission: "Must demonstrate English proficiency (e.g., IELTS 5.5–6.0 if prior education not in English).",
+    languageRequirementClinical: "Italian becomes important for clinical rotations (patient interaction).",
+    practiceLocations: "Eligible to practice in Italy upon local licensing, in other EU countries with recognition, and in India after NMC screening (NEXT).",
+    universities: [
+      { name: "University of Pavia", country: "Italy" },
+      { name: "Sapienza University of Rome", country: "Italy" },
+      { name: "University of Milan", country: "Italy" },
+      { name: "University of Turin", country: "Italy" },
+      { name: "University of Bologna", country: "Italy" }
+    ],
+    tuitionFees: "€156–€4,000 (public universities, depending on income bracket/ISEE). Private can go higher.",
+  },
+  {
+    country: "Poland",
+    countryCode: "PL",
+    gdpPerCapita: "18,000-20,000",
+    entranceExams: "University-specific entrance exams (Biology, Chemistry, possibly Physics). Some also consider 12th-grade marks + interview.",
+    languageRequirementAdmission: "English test (IELTS/TOEFL) often required unless 12th was in English.",
+    languageRequirementClinical: "Polish recommended for patient communication in clinical years.",
+    practiceLocations: "Poland, EU recognition after licensing, India (NMC recognized if listed in WDOMS).",
+    universities: [
+      { name: "Medical University of Warsaw", country: "Poland" },
+      { name: "Jagiellonian University Medical College", country: "Poland" },
+      { name: "Medical University of Gdańsk", country: "Poland" },
+      { name: "Medical University of Silesia", country: "Poland" },
+      { name: "Poznań University of Medical Sciences", country: "Poland" }
+    ],
+    tuitionFees: "Typically €10,000–€13,000 per year.",
+  },
+  {
+    country: "Romania",
+    countryCode: "RO",
+    gdpPerCapita: "15,000",
+    entranceExams: "Some universities hold their own test (Bio & Chem) or evaluate high school results in sciences.",
+    languageRequirementAdmission: "English proficiency required (IELTS ~6.0 recommended if not proven otherwise).",
+    languageRequirementClinical: "Romanian essential for direct patient contact in clinical settings (often taught on campus).",
+    practiceLocations: "Romania, EU, India (if recognized & after necessary licensure exams).",
+    universities: [
+      { name: "Carol Davila University of Medicine and Pharmacy (Bucharest)", country: "Romania" },
+      { name: "University of Medicine and Pharmacy Cluj-Napoca", country: "Romania" },
+      { name: "University of Medicine and Pharmacy Craiova", country: "Romania" },
+      { name: "Grigore T. Popa University (Iași)", country: "Romania" },
+      { name: "Târgu Mureș University of Medicine", country: "Romania" }
+    ],
+    tuitionFees: "Typically €5,000–€7,000 per year.",
+  },
+  {
+    country: "Bulgaria",
+    countryCode: "BG",
+    gdpPerCapita: "11,000-12,000",
+    entranceExams: "Usually a test in Biology & Chemistry; some conduct interviews.",
+    languageRequirementAdmission: "English certificate if your 12th-grade medium was not English.",
+    languageRequirementClinical: "Bulgarian language lessons are common in first or second year to aid clinical practice.",
+    practiceLocations: "Bulgaria, EU, India (recognition varies by specific school listing).",
+    universities: [
+      { name: "Medical University of Sofia", country: "Bulgaria" },
+      { name: "Medical University of Plovdiv", country: "Bulgaria" },
+      { name: "Medical University of Varna", country: "Bulgaria" },
+      { name: "Medical University of Pleven", country: "Bulgaria" },
+      { name: "Sofia University 'St. Kliment Ohridski'", country: "Bulgaria" }
+    ],
+    tuitionFees: "Around €7,000–€8,000 per year.",
+  },
+  {
+    country: "Czech Republic",
+    countryCode: "CZ",
+    gdpPerCapita: "29,000",
+    entranceExams: "Most medical faculties have an entrance exam in Biology, Chemistry, and/or Physics.",
+    languageRequirementAdmission: "Proof of English proficiency (IELTS ~6.0 or equivalent).",
+    languageRequirementClinical: "Czech is typically introduced for later clinical rotations.",
+    practiceLocations: "Czech Republic, EU, India after relevant steps.",
+    universities: [
+      { name: "Charles University", country: "Czech Republic" },
+      { name: "Masaryk University (Brno)", country: "Czech Republic" },
+      { name: "Palacký University (Olomouc)", country: "Czech Republic" },
+      { name: "University of Ostrava", country: "Czech Republic" },
+      { name: "Czech Technical University", country: "Czech Republic" }
+    ],
+    tuitionFees: "Usually €10,000–€13,000 per year.",
+  },
+  {
+    country: "Slovakia",
+    countryCode: "SK",
+    gdpPerCapita: "22,000",
+    entranceExams: "University-administered entrance exams in Biology & Chemistry.",
+    languageRequirementAdmission: "English proficiency proof (high school transcripts or IELTS).",
+    languageRequirementClinical: "Basic Slovak for hospital work is taught in early years.",
+    practiceLocations: "Slovakia, EU, India (with licensure compliance).",
+    universities: [
+      { name: "Comenius University (Bratislava)", country: "Slovakia" },
+      { name: "Pavol Jozef Šafárik University (Košice)", country: "Slovakia" },
+      { name: "Slovak Medical University", country: "Slovakia" },
+      { name: "Constantine the Philosopher University (Nitra)", country: "Slovakia" },
+      { name: "University of Trnava", country: "Slovakia" }
+    ],
+    tuitionFees: "€9,000–€11,000 per year, on average.",
+  },
+  {
+    country: "Serbia",
+    countryCode: "RS",
+    gdpPerCapita: "9,000",
+    entranceExams: "Typically a science-based entrance exam or interview (Bio, Chem).",
+    languageRequirementAdmission: "English language certificate if not from an English-medium school.",
+    languageRequirementClinical: "Serbian is often required (at least basic) for clinical placements.",
+    practiceLocations: "Serbia (non-EU, but recognized regionally), India (verify listing).",
+    universities: [
+      { name: "University of Belgrade (Faculty of Medicine)", country: "Serbia" },
+      { name: "University of Novi Sad", country: "Serbia" },
+      { name: "University of Niš", country: "Serbia" },
+      { name: "University of Kragujevac", country: "Serbia" },
+      { name: "Educons University", country: "Serbia" }
+    ],
+    tuitionFees: "Often €5,000–€6,000 per year.",
+  },
+  {
+    country: "Belarus",
+    countryCode: "BY",
+    gdpPerCapita: "6,000",
+    entranceExams: "University entrance tests in science subjects or direct admission with strong 12th marks (varies).",
+    languageRequirementAdmission: "English-medium programs exist; some require basic English test or interview.",
+    languageRequirementClinical: "Russian/Belarusian language classes are introduced for patient interaction.",
+    practiceLocations: "Belarus (non-EU), India (NMC checks). Other countries require local licensing.",
+    universities: [
+      { name: "Belarusian State Medical University", country: "Belarus" },
+      { name: "Grodno State Medical University", country: "Belarus" },
+      { name: "Vitebsk State Medical University", country: "Belarus" },
+      { name: "Gomel State Medical University", country: "Belarus" },
+      { name: "International Sakharov Environmental Institute", country: "Belarus" }
+    ],
+    tuitionFees: "Typically €4,000–€5,000 per year.",
+  },
+  {
+    country: "Georgia",
+    countryCode: "GE",
+    gdpPerCapita: "6,000",
+    entranceExams: "University-level exam or 12th-grade science evaluation; some require an interview.",
+    languageRequirementAdmission: "English proficiency (basic exam or certificate).",
+    languageRequirementClinical: "Minimal Georgian or Russian eventually needed for patient contact.",
+    practiceLocations: "Georgia, recognized in some EU countries with additional steps, India (check NMC listings).",
+    universities: [
+      { name: "Tbilisi State Medical University", country: "Georgia" },
+      { name: "David Tvildiani Medical University", country: "Georgia" },
+      { name: "University of Georgia (Tbilisi)", country: "Georgia" },
+      { name: "European University (Tbilisi)", country: "Georgia" },
+      { name: "Batumi Shota Rustaveli State University", country: "Georgia" }
+    ],
+    tuitionFees: "€4,000–€6,000 per year.",
+  },
+  {
+    country: "Latvia",
+    countryCode: "LV",
+    gdpPerCapita: "20,000",
+    entranceExams: "Entrance exam (Bio, Chem), or review of high school transcripts.",
+    languageRequirementAdmission: "Proof of English (IELTS/TOEFL).",
+    languageRequirementClinical: "Latvian language basics needed for clinical rotation.",
+    practiceLocations: "Latvia, EU, India upon recognized listing.",
+    universities: [
+      { name: "Riga Stradiņš University", country: "Latvia" },
+      { name: "University of Latvia (Faculty of Medicine)", country: "Latvia" },
+      { name: "Riga Medical College", country: "Latvia" },
+      { name: "Turība University", country: "Latvia" },
+      { name: "Latvian Academy of Sport Education", country: "Latvia" }
+    ],
+    tuitionFees: "~€10,000–€12,000 per year (for full MD).",
+  },
+  {
+    country: "Lithuania",
+    countryCode: "LT",
+    gdpPerCapita: "25,000",
+    entranceExams: "Similar to Latvia: exam or transcript-based selection for medicine in English.",
+    languageRequirementAdmission: "Must show English proficiency (IELTS ~5.5–6.0).",
+    languageRequirementClinical: "Lithuanian language for clinical. Some faculties provide structured language classes.",
+    practiceLocations: "Lithuania, EU, India (after appropriate steps).",
+    universities: [
+      { name: "Lithuanian University of Health Sciences (Kaunas)", country: "Lithuania" },
+      { name: "Vilnius University (Faculty of Medicine)", country: "Lithuania" },
+      { name: "Kaunas University of Technology", country: "Lithuania" },
+      { name: "Vytautas Magnus University", country: "Lithuania" },
+      { name: "Klaipėda University", country: "Lithuania" }
+    ],
+    tuitionFees: "€10,000–€13,000 per year.",
+  },
+  {
+    country: "Croatia",
+    countryCode: "HR",
+    gdpPerCapita: "17,000",
+    entranceExams: "Most run a standard entrance exam in Bio, Chem, Physics. Some accept SAT II scores.",
+    languageRequirementAdmission: "IELTS or proof of English if not from an English-medium school.",
+    languageRequirementClinical: "Croatian for interacting with patients in later clinical stages.",
+    practiceLocations: "Croatia, EU, India (if recognized).",
+    universities: [
+      { name: "University of Zagreb (School of Medicine)", country: "Croatia" },
+      { name: "University of Split (School of Medicine)", country: "Croatia" },
+      { name: "University of Rijeka (Faculty of Medicine)", country: "Croatia" },
+      { name: "University of Osijek", country: "Croatia" },
+      { name: "Libertas International University", country: "Croatia" }
+    ],
+    tuitionFees: "About €10,000–€12,000 per year.",
+  },
+  {
+    country: "Northern Cyprus",
+    countryCode: "CY",
+    gdpPerCapita: "15,000",
+    entranceExams: "Usually internal tests or 12th-grade performance + interview. Some may require Biology/Chemistry knowledge.",
+    languageRequirementAdmission: "Must prove English proficiency (IELTS/TOEFL) unless medium of instruction in 12th was English.",
+    languageRequirementClinical: "Turkish for patient interactions in affiliated hospitals.",
+    practiceLocations: "Generally recognized in Turkey, some acceptance in EU (school-dependent), India (check NMC).",
+    universities: [
+      { name: "Near East University", country: "Northern Cyprus" },
+      { name: "Girne American University", country: "Northern Cyprus" },
+      { name: "Cyprus International University", country: "Northern Cyprus" },
+      { name: "Eastern Mediterranean University", country: "Northern Cyprus" },
+      { name: "European University of Lefke", country: "Northern Cyprus" }
+    ],
+    tuitionFees: "Often €9,000–€12,000 per year (with scholarships at times).",
+  }
+];
